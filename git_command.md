@@ -36,6 +36,17 @@ Example: git add -A // will track all the file in your project
 // cloning a repository in your project
 6. git clone <url> <opt folderName>
 Example: git clone https://github.com/OwlCarousel2/OwlCarousel2.git // by this command u will clone owlCarousel in your porject
-Example: git clone https://github.com/OwlCarousel2/OwlCarousel2.git yourFolderName // by this command u will clone owlCarousel in your porject but 
+Example: git clone https://github.com/OwlCarousel2/OwlCarousel2.git yourFolderName // by this command u will clone owlCarousel in your porject but in your spcefided directory
 
-7. 
+// exactly what u change in the file
+7. git diff <verb>
+Example: git diff // it will show u what u last added in your file in unstaged area
+Example: git diff --staged // it will show u what u last added in your file in staged area
+Example: git diff --cached // it will show u what u last added in your file in staged area
+
+
+
+
+
+
+
